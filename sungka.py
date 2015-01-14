@@ -28,14 +28,7 @@ try:  # PyGame
 except ImportError:
     HAVE_PYGAME = False
 
-HAVE_ANDROID = True
-try:  # Android
-    import android
-except ImportError:
-    HAVE_ANDROID = False
 
-#if __debug__: from pprint import pprint as pp
-#import warnings
 
 from sungka1 import sungka1
 import sungka1
